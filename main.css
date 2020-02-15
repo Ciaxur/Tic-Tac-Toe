@@ -1,0 +1,154 @@
+/* Main CSS */
+
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Montserrat');
+
+
+/* General Styles */
+body  				{ background-color: #2C3E50; }
+h1, h2, h4, button  { color: #2980B9; font-family: Monteserrat, sans-serif; }
+button 				{ width: 200px; font-size: 24px; }
+
+
+
+/* Summary Style */
+.summary
+{
+	height: 100px;
+	width: 800px;
+
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+
+.sum-1
+{
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+.score
+{
+	color: #ECF0F1;
+	font-size: 18px;
+}
+
+.text-center
+{
+	text-align: center;
+}
+
+
+/* Box Container */
+.container 
+{ 
+	height: 700px; 
+	width: 	700px;
+}
+
+/* Board Rows Styling */
+.board-row
+{
+	height: 33%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.board-row:nth-child(2)			/* Middle Row Style */
+{
+	border-top-style: solid;	/* Top Border */
+	border-top-color: #3498DB;
+	border-top-width: 2px;
+
+	border-bottom-style: solid;	/* Bottom Border */
+	border-bottom-color: #3498DB;
+	border-bottom-width: 2px;
+}
+
+
+/* Columns Styling */
+.box-columns
+{
+	height: 100%;
+	width: 33%;
+	float: left;
+
+	cursor: pointer;
+}
+
+.box-columns:nth-child(2)		/* Column Boxes */
+{
+	border-left-style: solid;	/* Left BOrder */
+	border-left-color: #3498DB;
+	border-left-width: 2px;
+
+	border-right-style: solid;	/* Right BOrder */
+	border-right-color: #3498DB;
+	border-right-width: 2px;
+}
+
+
+/* 'X' and 'O' */
+.signs
+{
+	font-family: 'Baloo Bhaijaan', cursive;
+	color: #E74C3C;
+	font-weight: bold;
+	font-size: 150px;
+}
+
+
+.status
+{
+	font-size: 50px;
+
+	width: 700px;
+	height: 700px;
+
+    display: none;
+}
+
+/* Settings Menu Style */
+
+.settings
+{
+	background-color: #ECF0F1;
+
+	height: 320px;
+	width: 400px;
+
+	box-shadow: 1px 1px 40px 5px black;
+
+	display: none;
+}
+
+/* Page Center Style */
+.page-center
+{
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+.sign-type
+{
+	position: absolute;
+	top: 20%;
+
+	font-family: 'Baloo Bhaijaan', cursive;
+	color: #E74C3C;
+	font-weight: bold;
+	font-size: 150px;
+
+	width: 	150px;
+	height: 150px;
+
+	cursor: pointer;
+}
